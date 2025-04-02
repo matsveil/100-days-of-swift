@@ -17,17 +17,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Picture" textLabel="w9N-hp-o5O" style="IBUITableViewCellStyleDefault" id="9bp-FP-sFc">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Picture" textLabel="w9N-hp-o5O" style="IBUITableViewCellStyleDefault" id="9bp-FP-sFc">
                                 <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9bp-FP-sFc" id="5h0-1j-e2T">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w9N-hp-o5O">
-                                            <rect key="frame" x="20" y="0.0" width="353" height="43.666667938232422"/>
+                                            <rect key="frame" x="20" y="0.0" width="334.66666666666669" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -72,17 +72,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="65d-vy-8Xd">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65d-vy-8Xd">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                             </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="QIA-3z-JdA"/>
+                        <viewLayoutGuide key="safeArea" id="UJ5-nR-Ox1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="65d-vy-8Xd" firstAttribute="top" secondItem="l4D-Pw-ky2" secondAttribute="topMargin" constant="-59" id="0il-kJ-Uk5"/>
-                            <constraint firstItem="65d-vy-8Xd" firstAttribute="leading" secondItem="QIA-3z-JdA" secondAttribute="leading" id="6WC-06-IML"/>
-                            <constraint firstItem="65d-vy-8Xd" firstAttribute="centerX" secondItem="l4D-Pw-ky2" secondAttribute="centerX" id="U5o-nk-iJY"/>
-                            <constraint firstItem="65d-vy-8Xd" firstAttribute="centerY" secondItem="l4D-Pw-ky2" secondAttribute="centerY" id="oJT-YQ-Zpr"/>
+                            <constraint firstItem="65d-vy-8Xd" firstAttribute="top" secondItem="UJ5-nR-Ox1" secondAttribute="top" id="OdI-UI-t7a"/>
+                            <constraint firstItem="65d-vy-8Xd" firstAttribute="centerX" secondItem="l4D-Pw-ky2" secondAttribute="centerX" id="dZo-R8-R1H"/>
+                            <constraint firstItem="65d-vy-8Xd" firstAttribute="leading" secondItem="UJ5-nR-Ox1" secondAttribute="leading" id="gRd-Zr-hii"/>
+                            <constraint firstItem="65d-vy-8Xd" firstAttribute="bottom" secondItem="l4D-Pw-ky2" secondAttribute="bottom" id="ya8-Ym-tfs"/>
                         </constraints>
                     </view>
                     <connections>
